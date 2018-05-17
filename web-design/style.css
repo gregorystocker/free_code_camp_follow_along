@@ -1,0 +1,61 @@
+.wrapper1, .wrapper2{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: purple;
+  font-family: sans-serif;
+}
+
+h1, h2, h3{
+  text-align: center;
+  font-family: Lobster, sans-serif;
+}
+
+#field-pic{
+  display: block;
+  width: 46%;
+  margin: 0 auto;
+  border: solid gray 10px;
+  border-radius: 50%;
+
+}
+
+#about-me{
+
+  display: block;
+  width: 96%;
+  margin: 0 auto;
+
+}
+#about-me p{
+
+  text-align: center;
+}
+
+/* 
+inline-block elements can have padding and margins all around like divs, but can
+be placed alongside each other
+*/
+#box-container1, #box-container2{
+ display: inline-block;
+ width:500px;
+ height:200px;
+ background-color: black;
+ margin:20px;
+}
+
+ #box-container1 div{
+  display: inline-block;
+  width:100px;
+  height:100px;
+  background-color: white;
+}
+
+#box-container2 div{
+ display: inline-block;
+ width:100px;
+ height:100px;
+ background-color: white;
+ margin: -15px;
+
+}

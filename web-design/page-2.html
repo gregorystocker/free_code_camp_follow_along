@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--this line enables usage of bootstrap without having it downloaded-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+  <link rel="stylesheet" type="text/css" href="page-2-style.css">
+  <link rel="veiwport" content="width=device-width initial-scale=1" >
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+</head>
+<div="container-fluid">
+  <body>
+    <!--text center is a bootstrap class that centers text-->
+      <h1 class="text-center">
+      This page will be styled using bootstrap.
+      </h1>
+      <br>
+      <a href="index.html">Go back to page1</a>
+      <p>this image has the class img-responsive which makes it automatically adjust to the screen size</p>
+      <div class="inlines">
+<!--img-responsive is a class that lets our image resize depending on the width of our browser-->
+      <img src="pics/surreal_art-t2.jpg" alt="surreal-art" class="img-responsive inlines">
+      <form action="index.js">
+
+        <!--the button uses bootstrap class btn to recognize it as a
+        bootstrap button, btn-block makes it display: block btn-info is a color>
+
+        </blockquote> -->
+        <button class="btn btn-block btn-info">Like</button>
+        <button class="btn btn-block btn-info">Info</button>
+        <button class="btn btn-block btn-danger">Delete</button>
+
+      </form>
+
+  </body>
+</div><!--ends container-fluid-->
+
+</html>
